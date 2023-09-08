@@ -18,9 +18,7 @@
         "shims.d.ts",
         "enums.d.ts"
     ],
-    "testFiles": [
-        "tests.ts"
-    ],
+    "testFiles": [],
     "public": true,
     "targetVersions": {
         "target": "6.0.18",
@@ -29,5 +27,19 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "disablesVariants": [
+        "mbcodal"
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
 }
