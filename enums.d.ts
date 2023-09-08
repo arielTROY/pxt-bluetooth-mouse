@@ -1,14 +1,14 @@
 // Auto-generated. Do not edit.
 
 
-    declare enum ButtonState
+    declare const enum ButtonState
     {
     BUTTON_UP = 0,
     BUTTON_DOWN = 1,
     }
 
 
-    declare enum MouseButton
+    declare const enum MouseButton
     {
     MOUSE_BUTTON_LEFT = 0x1,
     MOUSE_BUTTON_RIGHT = 0x2,
